@@ -19,22 +19,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  {
-    pid: 4,
-    risk: 2,
-    lpSymbol: 'PEPR-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x141dc8520f6339a9e75E9C254742b0acc9D42E7a',
-    },
-    tokenSymbol: 'PEPR',
-    tokenAddresses: {
-      97: '',
-      56: '0x019bE1796178516e060072004F267B59a49A0801',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
+
   {
     pid: 6,
     risk: 2,
